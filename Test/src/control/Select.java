@@ -20,7 +20,7 @@ public class Select {
 			System.out.println("3");
 			break;
 		case "ป็" :
-			System.out.println("5");
+			System.out.println("54");
 			break;		
 		}
 			
