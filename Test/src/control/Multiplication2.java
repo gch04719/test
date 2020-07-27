@@ -11,16 +11,14 @@ public class Multiplication2 {
 					System.out.print(i + " * " + j + " = " + i * j +"\t");
 					System.out.println();
 				}
-			}	
-	  			
-					else if( i % 2 != 0) {
-				
-					for(int j = 1 ; j <= 9 ; j++) {
-							System.out.print(i + " * " + j + " = " + i * j +"\t");
-							System.out.print((i + 1) + " * " + (j ) + " = " + (i + 1) * (j ) );
-							System.out.println();
-				
-					}
+			} else if( i % 2 != 0) {
+		
+				for(int j = 1 ; j <= 9 ; j++) {
+					System.out.print(i + " * " + j + " = " + i * j +"\t");
+					System.out.print((i + 1) + " * " + (j ) + " = " + (i + 1) * (j ) );
+					System.out.println();
+			
+				}
 			System.out.println();
 			}
 		}
