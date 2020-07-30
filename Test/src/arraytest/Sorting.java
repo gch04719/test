@@ -18,41 +18,15 @@ public class Sorting {
 		System.out.println();
 		
 		for(int j=0; j < a.length; j++) {
-			for(int i = 0 + j; i < a.length; i++) {
+			for(int i =  j; i < a.length; i++) {
 				if(a[i] <= a[j]) {
-				   int num = a[j];
+				   int temp = a[j];
 				   a[j] = a[i];
-				   a[i] = num;
+				   a[i] = temp;
 				}	
 			}
-		}
-		
-		
-		/*for(int i = 0; i < (a.length-1); i++) {
-			if(a[i] <= a[0]) {
-			   int num = a[0];
-				a[0] = a[i];
-				a[i] = num;
-			}	
-		}
-		for(int i = 0 + 1; i < (a.length-1); i++) {
-			if(a[i] <= a[1]) {
-				int num = a[1];
-				a[1] = a[i];
-				a[i] = num;
-			}	
-		}
-		
-		for(int i = 0 + 2; i < (a.length-1); i++) {
-			if(a[i] <= a[2]) {
-				int num = a[2];
-				a[2] = a[i];
-				a[i] = num;
-			}	
-		} */
-		
+		}		
 	
-		
 		for(int i = 0 ; i < a.length; i++) {
 			System.out.print(a[i] + " ");
 		}
@@ -62,3 +36,24 @@ public class Sorting {
 	}
 
 }
+/*for(int i = 0; i < (a.length-1); i++) {
+if(a[i] <= a[0]) {
+   int num = a[0];
+	a[0] = a[i];
+	a[i] = num;
+}	
+}
+for(int i = 0 + 1; i < (a.length-1); i++) {
+if(a[i] <= a[1]) {
+	int num = a[1];
+	a[1] = a[i];
+	a[i] = num;
+}	
+}
+for(int i = 0 + 2; i < (a.length-1); i++) {
+if(a[i] <= a[2]) {
+	int num = a[2];
+	a[2] = a[i];
+	a[i] = num;
+}	
+} */

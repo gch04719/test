@@ -17,6 +17,7 @@ public class Reverse {
 		System.out.println();
 		
 		
+		
 		//¹Ý´ë·Î 
 		for(int i = 0 ; i < (a.length / 2); i++) {
 			int num = a[i];
