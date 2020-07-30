@@ -6,6 +6,7 @@ public class Baseball {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		int ball = 0;
 		int strike = 0;
 		int a[] = new int[4];
